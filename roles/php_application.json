@@ -1,0 +1,9 @@
+{
+    "name": "php_application",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "description": "Base php role", 
+    "run_list": [
+        "recipe[coduo::php55]"
+    ]
+}

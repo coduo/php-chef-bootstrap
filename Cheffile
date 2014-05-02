@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'chef-client'
+cookbook 'git'
+cookbook 'apt'
+cookbook 'build-essential'
+cookbook 'php'
+cookbook 'composer'
